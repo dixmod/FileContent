@@ -1,0 +1,20 @@
+{
+  "name": "dixmod/shapes",
+  "description": "Example sort content file",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "dixmod",
+	  "email": "dixmod@gmail.com"
+	}
+  ],
+  "require": {
+	"symfony/console": "^4.1"
+  },
+  "autoload": {
+	"psr-4": {
+	  "App\\": "src/App"
+	}
+  }
+}
